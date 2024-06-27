@@ -1,0 +1,24 @@
+.hero_wrapper {
+  height: 90svh;
+  background-image: url(../../public/asset/Elevatordummy.svg),
+    linear-gradient(#807d7c, #807d7c, #494847, #afacaa);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_text h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_text strong {
+  color: #20e7bd;
+}
+@media screen and (max-width: 800px) {
+  .hero_wrapper {
+    background-size: contain;
+  }
+}
