@@ -1,13 +1,12 @@
 import React from "react";
 import OurTeamCard from "./OurTeamCard";
 import style from "./OurTeam.module.css";
-import Aditya from "../../public/asset/Adityapic.jpeg";
 
 const OurTeam = () => {
   return (
     <div>
       <OurTeamCard
-        ImageSrc={Aditya}
+        ImageSrc="../../public/asset/Adityapic.jpeg"
         ImageAlt="Aditya Pic"
         name="Aditya Kumar"
         position="Web developer Lead"
