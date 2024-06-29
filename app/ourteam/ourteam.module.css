@@ -4,3 +4,8 @@
 .ourteam_wrapper h1 {
   text-align: center;
 }
+.our_team_text {
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
