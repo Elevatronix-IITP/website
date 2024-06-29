@@ -35,7 +35,7 @@
   justify-content: space-between;
   align-items: flex-start;
   color: white;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .footer_wrapper a {
   text-decoration: none;
