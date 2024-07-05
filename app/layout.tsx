@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   icons: {
     icon: ["/favicon.ico"],
   },
-  title: "Elevatronix Pvt. Ltd",
+  title: "Elevatronix",
   description: "A company which build automation surgical instrument",
 };
 

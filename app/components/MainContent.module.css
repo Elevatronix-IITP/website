@@ -14,19 +14,33 @@
   /* box-shadow: 0 2px 2px -2px #b92323; */
 }
 .mainContent h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #000000;
 }
 .mainContent p {
   margin-top: 3rem;
   line-height: 1.8;
   color: #000000;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* font-weight: 400; */
 }
 .specsOfCompany h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #000000;
   text-align: center;
   margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 720px) {
+  .mainContent h1 {
+    font-size: 1.5rem;
+  }
+  .mainContent p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .specsOfCompany h1 {
+    font-size: 1.5rem;
+  }
 }

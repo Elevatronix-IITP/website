@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import style from "./Navbar.module.css";
@@ -28,11 +29,11 @@ const Navbar = () => {
             <Link href="/contactUs">Contact US</Link>
           </li>
         </nav>
-        <div className={style.hamburger}>
+        <div className={style.hamburger} onClick={() => console.log("hi")}>
           <div className={style.hamburger_wrapper}>
-            <div className={style.bars}></div>
-            <div className={style.bars}></div>
-            <div className={style.bars}></div>
+            <div className={style.bars1}></div>
+            <div className={style.bars2}></div>
+            <div className={style.bars3}></div>
           </div>
         </div>
       </div>

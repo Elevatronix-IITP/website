@@ -6,7 +6,8 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: transform 0.2s, box-shadow 0.2s;
-  max-width: 500px;
+  max-width: 400px;
+  z-index: -1;
 }
 .img {
   border-radius: 50%;
