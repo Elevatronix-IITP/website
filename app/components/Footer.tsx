@@ -16,7 +16,7 @@ const Footer = () => {
           <div className={style.left}>
             <div className={style.company_logo}>
               <Image
-                src="public/asset/Logo_black_and_white.svg"
+                src="/asset/Logo_black_and_white.svg"
                 width={100}
                 height={70}
                 alt="Logo"
