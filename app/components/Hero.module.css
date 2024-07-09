@@ -1,6 +1,6 @@
 .hero_wrapper {
   height: 90svh;
-  background-image: url(../../public/asset/Elevatordummy.svg),
+  background-image: url(/asset/Elevatordummy.svg),
     linear-gradient(#807d7c, #807d7c, #494847, #afacaa);
   background-repeat: no-repeat;
   background-position: center;

@@ -75,12 +75,17 @@
   border-radius: 50%;
 }
 @media (max-width: 1400px) {
-  .right {
-    margin-top: 30px;
+  .company_logo {
+    margin-right: 80px;
   }
 }
 @media (max-width: 1450px) {
   .footer_wrapper {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 900px) {
+  .company_logo {
+    margin-right: 0px;
   }
 }
