@@ -4,14 +4,14 @@ import Hero from "./components/Hero";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
-import Slider from "./components/Slider";
+import EmblaCarousel from "./components/Slider";
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <Slider />
-      <Hero />
+      <EmblaCarousel />
+      {/* <Hero /> */}
       <MainContent />
       <Footer />
       <Copyright />

@@ -4,7 +4,7 @@
     linear-gradient(#807d7c, #807d7c, #494847, #afacaa);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  /* background-size: contain; */
   display: flex;
   justify-content: center;
   align-items: center;
