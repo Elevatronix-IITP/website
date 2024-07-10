@@ -7,6 +7,7 @@ import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { Phone } from "lucide-react";
 import Image from "next/image";
+import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
@@ -97,6 +98,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <Copyright />
     </div>
   );
 };
