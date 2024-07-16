@@ -38,6 +38,23 @@ const Navbar = () => {
         </div>
       </div>
       <hr />
+      <nav className={style.ham_on}>
+        <li className={style.ham_list}>
+          <Link href="/">Home</Link>
+        </li>
+        <li className={style.ham_list}>
+          <a href="#">About Us</a>
+        </li>
+        <li className={style.ham_list}>
+          <a href="#">Our Products</a>
+        </li>
+        <li className={style.ham_list}>
+          <Link href="/ourteam">Our Team</Link>
+        </li>
+        <li className={style.ham_list}>
+          <Link href="/contactUs">Contact US</Link>
+        </li>
+      </nav>
     </div>
   );
 };
