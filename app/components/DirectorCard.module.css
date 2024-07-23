@@ -1,0 +1,35 @@
+.Dcard {
+  max-width: 500px;
+  padding: 1rem;
+  box-shadow: 1px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-right: 5rem;
+}
+.img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.image {
+  /* width:; */
+}
+.text h3 {
+  font-size: 1.5rem;
+}
+.text h5 {
+  opacity: 0.8;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+.text p {
+  text-align: justify;
+  line-height: 1.5;
+}
+@media (max-width: 1226px) {
+  .Dcard {
+    margin-top: 5rem;
+    margin-right: 0;
+  }
+}

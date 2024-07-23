@@ -9,15 +9,11 @@ const MainContent = () => {
         <h1>Elevatronix Pvt. Ltd.</h1>
         <hr />
         <p>
-          Lorem ipsum dolor sit amet consectetur. Non lacus non vestibulum quam
-          sagittis amet lacinia. Vulputate suspendisse egestas vel ullamcorper
-          lacus.Lorem ipsum dolor sit amet consectetur. Non lacus non vestibulum
-          quam sagittis amet lacinia. Vulputate suspendisse egestas vel
-          ullamcorper lacus. Lorem ipsum dolor sit amet consectetur. Non lacus
-          non vestibulum quam sagittis amet lacinia. Vulputate suspendisse
-          egestas vel ullamcorper lacus.Lorem ipsum dolor sit amet consectetur.
-          Non lacus non vestibulum quam sagittis amet lacinia. Vulputate
-          suspendisse egestas vel ullamcorper lacus.
+          At Elevatronix Pvt. Ltd., we are at the forefront of a revolution in
+          surgical technology, pioneering the automation of surgical
+          instruments. By integrating cutting-edge technology into the operating
+          room, we are transforming the way surgeries are performed, making them
+          more precise, efficient, and safe.
         </p>
       </div>
       <div className={style.specsOfCompany}>

@@ -1,6 +1,6 @@
 .footer_wrapper {
-  background-color: #333;
-  color: #aaa;
+  background-color: #468046;
+  color: #ffffff;
   margin-top: 50px;
 }
 .footer {
@@ -24,7 +24,7 @@
   color: #fff;
 }
 .footer_wrapper a {
-  color: #aaa;
+  color: #ffffff;
   text-decoration: none;
 }
 .footer_wrapper a:hover {
@@ -71,7 +71,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: #100f0f;
+  background-color: #3b553b;
   border-radius: 50%;
 }
 @media (max-width: 1400px) {

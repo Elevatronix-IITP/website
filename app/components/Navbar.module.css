@@ -9,7 +9,8 @@
   padding: 1rem;
 }
 .logo_wrapper img {
-  width: 150px;
+  width: 200px;
+  height: 100%;
 }
 .nav_menu {
   display: flex;
@@ -73,30 +74,36 @@
     flex: 1;
     transform: rotate(135);
   }
-  .hamburger_wrapper:hover {
-    background-color: red;
+  .hamburger_wrapper:hover .ham_on {
+    display: block;
   }
 }
+@media only screen and (min-width: 768px) {
+  .ham_on {
+    display: none;
+  }
+}
+
 .ham_on {
   list-style: none;
-  padding: 10px;
-
+  padding: 20px;
   /* display: none; */
 }
 .ham_on li {
   width: 100%;
   margin-bottom: 20px;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 15px;
   padding: 12px;
 }
 .ham_on a {
   color: #000;
+  font-weight: 600;
   text-decoration: none;
 }
 .ham_list {
   font-size: 1.3rem;
   text-align: center;
   width: 100%;
-  background-color: #d9d9d9;
+  background-color: #79ddc7;
 }

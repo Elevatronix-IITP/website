@@ -18,8 +18,8 @@ const Footer = () => {
             <div className={style.company_logo}>
               <Image
                 src="/asset/Logo_black_and_white.svg"
-                width={100}
-                height={70}
+                width={150}
+                height={50}
                 alt="Logo"
               />
               <p>
