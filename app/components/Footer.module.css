@@ -1,5 +1,5 @@
 .footer_wrapper {
-  background-color: #468046;
+  background-image: linear-gradient(to right, #39b092 50%, #4c77c2);
   color: #ffffff;
   margin-top: 50px;
 }
@@ -87,5 +87,8 @@
 @media (max-width: 900px) {
   .company_logo {
     margin-right: 0px;
+  }
+  .footer_wrapper {
+    background-image: linear-gradient(to bottom, #39b092 50%, #4c77c2);
   }
 }
