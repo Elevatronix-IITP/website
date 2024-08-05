@@ -25,9 +25,9 @@ const Director = () => {
       <div>
         <h1>Our Mentor</h1>
         <Image
-          src="/asset/Partha sarthi.png"
-          width={100}
-          height={100}
+          src="/asset/Dr Karali Patra.png"
+          width={500}
+          height={500}
           alt="Dr "
         />
       </div>

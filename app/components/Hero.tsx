@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={style["hero_wrapper"]}>
       <div className={style.hero_text}>
         <h1>
-          This<strong> is Hero</strong> Heading
+          This <strong> is Hero</strong> Heading
         </h1>
       </div>
     </div>

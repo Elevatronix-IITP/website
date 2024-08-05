@@ -8,19 +8,19 @@ const Navbar = () => {
     <div className={style.header}>
       <div className={style.header_wrapper}>
         <div className={style.logo_wrapper}>
-          <a href="#">
+          <Link href="/">
             <img src="./asset/Logo.svg" alt="Company Logo" />
-          </a>
+          </Link>
         </div>
         <nav className={style.nav_menu}>
           <li className={style.nav_list}>
             <Link href="/">Home</Link>
           </li>
           <li className={style.nav_list}>
-            <a href="#">About Us</a>
+            <a href="/aboutUs">About Us</a>
           </li>
           <li className={style.nav_list}>
-            <a href="#">Our Products</a>
+            <a href="/products">Our Products</a>
           </li>
           <li className={style.nav_list}>
             <Link href="/ourteam">Our Team</Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
           <a href="#">About Us</a>
         </li>
         <li className={style.ham_list}>
-          <a href="#">Our Products</a>
+          <a href="/products">Our Products</a>
         </li>
         <li className={style.ham_list}>
           <Link href="/ourteam">Our Team</Link>

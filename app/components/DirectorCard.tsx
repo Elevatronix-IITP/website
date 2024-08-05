@@ -1,6 +1,9 @@
 import React from "react";
 import style from "./DirectorCard.module.css";
 import Image from "next/image";
+import { Linkedin } from "lucide-react";
+import { Twitter } from "lucide-react";
+
 interface DirectorCardProps {
   ImageSrc: string;
   ImageAlt: string;
@@ -34,6 +37,14 @@ const DirectorCard: React.FC<DirectorCardProps> = ({
             <h3>{name}</h3>
             <h5>{position}</h5>
             <p>{description}</p>
+          </div>
+          <div className={style.socialIcon}>
+            <a href="#" target="blank">
+              <Linkedin />
+            </a>
+            <a href="#" target="blank">
+              <Twitter />
+            </a>
           </div>
         </div>
       </div>

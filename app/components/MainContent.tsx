@@ -15,9 +15,10 @@ const MainContent = () => {
           room, we are transforming the way surgeries are performed, making them
           more precise, efficient, and safe.
         </p>
+        <h1 className={style.head2}>Our Expertise</h1>
+        <hr />
       </div>
       <div className={style.specsOfCompany}>
-        <h1>Our Expertise</h1>
         <OurExpertise />
       </div>
     </div>
