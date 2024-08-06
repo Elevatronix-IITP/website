@@ -40,10 +40,10 @@ const DirectorCard: React.FC<DirectorCardProps> = ({
           </div>
           <div className={style.socialIcon}>
             <a href="#" target="blank">
-              <Linkedin />
+              <Linkedin className={style.icon} />
             </a>
             <a href="#" target="blank">
-              <Twitter />
+              <Twitter className={style.icon} />
             </a>
           </div>
         </div>

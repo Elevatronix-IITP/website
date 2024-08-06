@@ -6,8 +6,8 @@
 }
 .our_team_card_wrapper {
   max-width: 500px;
-  height: 300px;
-  background-color: rgba(215, 250, 224, 0.359);
+  height: auto;
+  background-color: #b7b7b725;
 }
 .bg {
   height: 60px;
@@ -25,7 +25,7 @@
 }
 .our_team_card_wrapper h6 {
   opacity: 0.5;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .our_team_card_wrapper p {
   margin-top: 10px;
@@ -39,3 +39,20 @@
     width: 350px;
   }
 } */
+.socialIcon {
+  padding: 10px;
+}
+.socialIcon a {
+  padding: 5px;
+  margin-right: 4px;
+}
+
+.icon {
+  color: #737373;
+  stroke-width: 1px;
+  fill: #737373;
+}
+.icon:hover {
+  fill: rgb(97, 146, 112);
+  color: rgb(97, 146, 112);
+}

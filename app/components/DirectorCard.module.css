@@ -43,6 +43,17 @@
   border: 1px solid black;
   margin-right: 20px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   stroke: 20px;
+  transition: 100ms ease-in;
+}
+.socialIcon a:hover {
+  background-color: rgb(97, 146, 112);
+  color: white;
+  border-color: white;
+  fill: white;
+}
+
+.icon {
+  stroke-width: 1.5px;
 }

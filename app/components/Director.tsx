@@ -22,14 +22,24 @@ const Director = () => {
           position="Co-Founder"
         />
       </div>
-      <div>
+
+      <div className={style.mentor}>
         <h1>Our Mentor</h1>
-        <Image
-          src="/asset/Dr Karali Patra.png"
-          width={500}
-          height={500}
-          alt="Dr "
-        />
+        <hr />
+        <div className={style.mentorCard}>
+          <Image
+            src="/asset/Dr Karali Patra.png"
+            width={300}
+            height={300}
+            alt="Dr "
+          />
+          <h4>Dr. Karali Patra</h4>
+          <h6>Professor IIT Patna</h6>
+          <p>
+            He has research experience of more than a decades in the field of
+            Smart sensors , actuators and energy harvesting.
+          </p>
+        </div>
       </div>
     </div>
   );

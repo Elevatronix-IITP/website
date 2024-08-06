@@ -11,6 +11,8 @@ const OurTeam = () => {
         name="Aditya Kumar"
         position="Web developer Lead"
         description="He is the web Lead. He is so curious about his work and always see forward"
+        Linkedin_link="https://www.linkedin.com/in/adityagecv21/"
+        github_link=""
       />
       <OurTeamCard
         ImageSrc="/asset/Adityapic.jpeg"
@@ -18,6 +20,8 @@ const OurTeam = () => {
         name="Aditya Kumar"
         position="Web developer Lead"
         description="He is the web Lead. He is so curious about his work and always see forward"
+        Linkedin_link="https://www.linkedin.com/in/adityagecv21/"
+        github_link=""
       />
       <OurTeamCard
         ImageSrc="/asset/Adityapic.jpeg"
@@ -25,6 +29,8 @@ const OurTeam = () => {
         name="Aditya Kumar"
         position="Web developer Lead"
         description="He is the web Lead. He is so curious about his work and always see forward"
+        Linkedin_link="https://www.linkedin.com/in/adityagecv21/"
+        github_link=""
       />
     </div>
   );
