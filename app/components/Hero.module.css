@@ -10,9 +10,11 @@
   align-items: center;
 }
 .hero_text h1 {
+  /* padding-top: 500px; */
+  padding-right: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .hero_text strong {
   color: #20e7bd;

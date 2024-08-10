@@ -1,20 +1,18 @@
 import React from "react";
 import style from "./aboutUs.module.css";
+import { Suspense } from "react";
 
-const page = () => {
+const AboutUsPage = () => {
   return (
     <div className={style.main}>
       <div className={style.wrapper}>
-        <h1>About Us</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
-          voluptates eos, est ab mollitia beatae officiis, hic suscipit ex
-          quibusdam temporibus numquam quam illum delectus velit aliquam modi
-          porro tempora?
-        </p>
+        <video autoPlay muted loop>
+          <source src="/asset/actuator-casing.mkv" type="video/mkv" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
 };
 
-export default page;
+export default AboutUsPage;

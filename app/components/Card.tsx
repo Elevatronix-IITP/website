@@ -21,13 +21,13 @@ const Card: React.FC<CardProps> = ({
         <Image
           src={imageSrc}
           alt={imageAlt}
-          width={200}
-          height={200}
+          width={100}
+          height={100}
           className={styles.img}
         />
         <div>
           <h3>{title}</h3>
-          <p>{description}</p>
+          {/* <h6>{description}</h6> */}
         </div>
       </div>
     </div>

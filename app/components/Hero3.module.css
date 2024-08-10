@@ -1,0 +1,27 @@
+.hero_wrapper {
+  height: 90vh;
+  background-image: url(/asset/video.gif);
+  width: 100vw;
+  filter: drop-shadow(10px 10px 10px rgb(208, 227, 203));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_text {
+  height: 60vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+.hero_text h1 {
+  /* max-width: 200px; */
+}
+
+.hero_text strong {
+  color: #20e7bd;
+}

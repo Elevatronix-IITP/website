@@ -24,7 +24,7 @@ const Director = () => {
       </div>
 
       <div className={style.mentor}>
-        <h1>Our Mentor</h1>
+        <h1>Our Founding Advisor</h1>
         <hr />
         <div className={style.mentorCard}>
           <Image

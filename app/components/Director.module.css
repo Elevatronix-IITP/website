@@ -12,15 +12,16 @@
 }
 .mentor h1 {
   font-weight: 700;
+  margin-top: 20px;
 }
 .mentorCard {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 7% 0;
+
   text-align: center;
-  padding: 0 10%; */
+  padding: 0 10%;
 }
 .mentorCard hr {
   margin-top: 10px;

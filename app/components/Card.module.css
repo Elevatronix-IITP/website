@@ -1,5 +1,6 @@
 .card_container {
   padding: 20px;
+  min-width: 400px;
   margin: 20px;
   text-align: center;
   background-color: #f8f8f7;
@@ -10,13 +11,15 @@
   z-index: -1;
 }
 .img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .card_container p {
   line-height: 1.5;
 }
 .card_container h3 {
+  font-size: 14px;
   padding: 25px 0 30px 0;
+  color: grey;
 }
 .card_container:hover {
   transform: scale(1.05);

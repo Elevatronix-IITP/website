@@ -3,10 +3,12 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Hero from "./Hero";
+import Hero2 from "./Hero2";
+import Hero3 from "./Hero3";
 
 export default function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 2000 }),
+    Autoplay({ delay: 7000 }),
   ]);
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -24,15 +26,15 @@ export default function EmblaCarousel() {
             <Hero />
           </div>
           <div className="embla__slide">
-            <Hero />
+            <Hero2 />
           </div>
           <div className="embla__slide">
-            <Hero />
+            <Hero3 />
           </div>
         </div>
       </div>
       <button className="embla__prev" onClick={scrollPrev}>
-        Prev
+        &#8249
       </button>
       <button className="embla__next" onClick={scrollNext}>
         Next

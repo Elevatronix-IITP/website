@@ -7,21 +7,27 @@ function OurExpertise() {
     <div>
       <div className={style.our_expertise}>
         <Card
-          imageSrc="/asset/eye_img_our_expertise.jpg"
+          imageSrc="/asset/bulb.svg"
           imageAlt="Eye Icon"
-          title="Automated Eye Surgical Equipment"
-          description="Building responsive and modern web applications. Building responsive and modern web applications. Building responsive and modern web applications."
+          title="Developing and refining of automated surgical tool"
+          description="Developing and refining of automated surgical tool."
         />
         <Card
-          imageSrc="/asset/eye_img_our_expertise.jpg"
+          imageSrc="/asset/fabrication.svg"
           imageAlt="Tooth icon"
-          title="Dental Equipment"
-          description="Building responsive and modern web applications. Building responsive and modern web applications. Building responsive and modern web applications."
+          title="Engineering in Precise fabrication and testing"
+          description="Engineering in Precise Fabrication and Testing."
         />
         <Card
-          imageSrc="/asset/eye_img_our_expertise.jpg"
+          imageSrc="/asset/dental.svg"
           imageAlt="other"
-          title="Automation"
+          title="Digital diagnosis"
+          description="Building responsive and modern web applications. Building responsive and modern web applications."
+        />
+        <Card
+          imageSrc="/asset/doctor.svg"
+          imageAlt="other"
+          title="Top Global Medical practitioner and retails Giants"
           description="Building responsive and modern web applications. Building responsive and modern web applications."
         />
       </div>
