@@ -4,19 +4,23 @@
   box-shadow: 1px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 1.95px;
+  /* border: 1px solid rgb(230, 225, 225); */
+  border-radius: 5px;
   margin-right: 5rem;
 }
 .img_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: auto;
+  height: 351px;
 }
 .image {
   width: 100%;
   height: 100%;
 }
 .text h3 {
+  margin-top: 1rem;
   font-size: 1.5rem;
 }
 .text h5 {
@@ -56,4 +60,12 @@
 
 .icon {
   stroke-width: 1.5px;
+}
+.Dcard:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 3.9px 3.9px 5.2px 3.9px;
+}
+@media only screen and (max-width: 768px) {
+  .Dcard {
+    max-width: 450px;
+  }
 }

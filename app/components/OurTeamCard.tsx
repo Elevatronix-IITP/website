@@ -1,8 +1,9 @@
 import React from "react";
 import style from "./OurTeamCard.module.css";
 import Image from "next/image";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Target } from "lucide-react";
 import { Github } from "lucide-react";
+import { Mail } from "lucide-react";
 
 interface OurTeamCard_props {
   ImageSrc: string;
@@ -12,6 +13,7 @@ interface OurTeamCard_props {
   position: string;
   Linkedin_link: string;
   github_link: string;
+  mail: string;
 }
 
 const OurTeamCard: React.FC<OurTeamCard_props> = ({
@@ -22,6 +24,7 @@ const OurTeamCard: React.FC<OurTeamCard_props> = ({
   position,
   Linkedin_link,
   github_link,
+  mail,
 }) => {
   return (
     <div className={style.our_team_card}>
@@ -41,11 +44,14 @@ const OurTeamCard: React.FC<OurTeamCard_props> = ({
         </div>
 
         <div className={style.socialIcon}>
-          <a href={Linkedin_link} target="blank">
+          <a href={Linkedin_link} target="_blank">
             <Linkedin className={style.icon} />
           </a>
-          <a href={github_link}>
+          <a href={github_link} target="_blank">
             <Github className={style.icon} />
+          </a>
+          <a href={mail} target="_blank">
+            <Mail className={style.mail} />
           </a>
         </div>
       </div>

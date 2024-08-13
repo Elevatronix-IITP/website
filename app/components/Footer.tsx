@@ -6,6 +6,7 @@ import { Linkedin } from "lucide-react";
 import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { Phone } from "lucide-react";
+import { Twitter } from "lucide-react";
 import Image from "next/image";
 import Copyright from "./Copyright";
 
@@ -23,9 +24,9 @@ const Footer = () => {
                 alt="Logo"
               />
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                veritatis culpa dolorum cupiditate omnis accusamus similique
-                inventore.
+                Elevatronix Private Limited is an start-up company, specializes
+                in designing, developing and fabricating cutting-edge automated
+                surgical equipment and advanced digital diagnosis solutions.
               </p>
             </div>
           </div>
@@ -34,16 +35,16 @@ const Footer = () => {
               <h3>Quick Link</h3>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="/aboutUs">About Us</a>
                 </li>
                 <li>
-                  <a href="#">Products</a>
+                  <a href="/products">Products</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="/contactUs">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -51,19 +52,22 @@ const Footer = () => {
               <h3>Contact Us</h3>
               <ul>
                 <li>
-                  <a href="#">
+                  <a
+                    href="https://maps.app.goo.gl/VuPs5ouSNuAQUyCV9"
+                    target="blank"
+                  >
                     <MapPin />
                     <p>Incubation Centre, IIT Patna, Bihta, Bihar 801103</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="mailto:info@elevatronix.in">
                     <Mail />
-                    <p>abcd@gmail.com</p>
+                    <p>info@elevatronix.in</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="tel:+91-9835884004">
                     <Phone /> <p>+91-9835884004</p>
                   </a>
                 </li>
@@ -87,9 +91,19 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/company/elevatronix-official/"
+                    target="blank"
+                  >
                     <div className={style.icons_bg}>
                       <Linkedin />
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/elevatronix" target="blank">
+                    <div className={style.icons_bg}>
+                      <Twitter />
                     </div>
                   </a>
                 </li>

@@ -4,3 +4,34 @@
 .wrapper {
   text-align: center;
 }
+.wrapper p {
+  padding: 1rem 5rem 5rem 5rem;
+}
+.video {
+  display: flex;
+  align-items: center;
+}
+.video video {
+  width: 90vw;
+  height: 100%;
+}
+.investor {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+.new {
+  margin-right: 5rem;
+  /* background: #ece8e8; */
+}
+.new img {
+  padding: 1rem;
+}
+.partner h1 {
+  margin-bottom: 50px;
+}

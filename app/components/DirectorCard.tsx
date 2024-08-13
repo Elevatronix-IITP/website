@@ -10,6 +10,7 @@ interface DirectorCardProps {
   name: string;
   description: string;
   position: string;
+  linkedin: string;
 }
 
 const DirectorCard: React.FC<DirectorCardProps> = ({
@@ -18,6 +19,7 @@ const DirectorCard: React.FC<DirectorCardProps> = ({
   name,
   description,
   position,
+  linkedin,
 }) => {
   return (
     <div>
@@ -39,7 +41,7 @@ const DirectorCard: React.FC<DirectorCardProps> = ({
             <p>{description}</p>
           </div>
           <div className={style.socialIcon}>
-            <a href="#" target="blank">
+            <a href={linkedin} target="blank">
               <Linkedin className={style.icon} />
             </a>
             <a href="#" target="blank">

@@ -5,8 +5,8 @@
   align-items: center;
 }
 .our_team_card_wrapper {
-  max-width: 500px;
-  height: auto;
+  max-width: 550px;
+  height: 365.78px;
   background-color: #b7b7b725;
 }
 .bg {
@@ -20,16 +20,15 @@
   margin-top: -50px;
   margin-left: 5px;
 }
-.our_team_card h3 {
-  margin-top: 20px;
-}
+
 .our_team_card_wrapper h6 {
   opacity: 0.5;
   margin-top: 5px;
 }
 .our_team_card_wrapper p {
+  font-size: 0.9rem;
   margin-top: 10px;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .text {
   padding: 1rem;
@@ -51,8 +50,18 @@
   color: #737373;
   stroke-width: 1px;
   fill: #737373;
+  transition: ease-out 0.5s;
 }
 .icon:hover {
   fill: rgb(97, 146, 112);
   color: rgb(97, 146, 112);
+}
+.mail {
+  color: #737373;
+  transition: ease-out 1s;
+}
+.mail:hover {
+  cursor: pointer;
+  color: #e6e6e6;
+  fill: rgb(97, 146, 112);
 }

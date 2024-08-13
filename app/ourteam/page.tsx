@@ -20,6 +20,9 @@ const Team = () => {
           </p>
         </div>
         <Director />
+        <div className={style.h1Intern}>
+          <h1>Engineer Working as an Intern</h1>
+        </div>
         <OurTeam />
       </div>
       <Footer />
