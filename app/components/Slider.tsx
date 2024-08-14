@@ -33,12 +33,6 @@ export default function EmblaCarousel() {
           </div>
         </div>
       </div>
-      <button className="embla__prev" onClick={scrollPrev}>
-        &#8249
-      </button>
-      <button className="embla__next" onClick={scrollNext}>
-        Next
-      </button>
     </div>
   );
 }

@@ -33,7 +33,7 @@ const Director = () => {
             src="/asset/Dr Karali Patra.png"
             width={300}
             height={300}
-            alt="Dr "
+            alt="Dr Karali Patra"
           />
           <h4>Dr. Karali Patra</h4>
           <h6>Professor IIT Patna</h6>
