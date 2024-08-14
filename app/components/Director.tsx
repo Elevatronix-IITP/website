@@ -19,7 +19,7 @@ const Director = () => {
           ImageSrc="/asset/Partha sarthi.jpg"
           ImageAlt="Partha Sarathi Mallick"
           name="Partha Sarathi Mallick"
-          description="Partha Sarathi Mallick is a distinguished PhD research scholar at the Indian Institute of Technology, Patna. With extensive research experience in the development of customized products, he has adeptly applied various manufacturing processes to innovate and enhance product design and functionality. His deep understanding of engineering principles and his hands-on approach to solving complex problems have been pivotal in his research journey."
+          description="Partha Sarathi Mallick is a distinguished PhD research scholar at the Indian Institute of Technology, Patna. With extensive research experience in the development of customized products, he has adeptly applied various manufacturing processes to innovate and enhance product design and functionality. His deep understanding of engineering principles and his hands-on approach to solving complex problems have been pivotal in his research journey"
           position="Co-Founder"
           linkedin="https://www.linkedin.com/in/8981196700/"
         />
