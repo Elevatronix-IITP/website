@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import style from "./Hero2.module.css";
 
 const Hero2 = () => {
@@ -7,7 +8,8 @@ const Hero2 = () => {
       <div className={style.hero_text}>
         <div>
           <h1>
-            This <strong> is Hero</strong> Heading
+            Automating <strong> Eye Surgery</strong> with Next-Generation
+            Precision Tools
           </h1>
         </div>
       </div>

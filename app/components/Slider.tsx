@@ -2,6 +2,7 @@
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import style from "./Slider.module.css";
 import Hero from "./Hero";
 import Hero2 from "./Hero2";
 import Hero3 from "./Hero3";
@@ -28,11 +29,19 @@ export default function EmblaCarousel() {
           <div className="embla__slide">
             <Hero2 />
           </div>
-          <div className="embla__slide">
-            <Hero3 />
-          </div>
+          {
+            <div className="embla__slide">
+              <Hero3 />
+            </div>
+          }
         </div>
       </div>
+      <button className="embla__prev" onClick={scrollPrev}>
+        Prev
+      </button>
+      <button className="embla__next" onClick={scrollNext}>
+        Next
+      </button>
     </div>
   );
 }

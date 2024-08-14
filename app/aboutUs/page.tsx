@@ -11,6 +11,11 @@ const AboutUsPage = () => {
           Elevatronix Pvt. Ltd. is a firm that was established in 2023 at the
           IIT Patna incubation center, with the mission of revolutionizing
           medical equipment by introducing automation within the surgical tools.
+          Our unwavering commitment to research and continuous technological
+          innovation enables us to offer a diverse range of top-quality surgical
+          instruments. With advanced design systems, sophisticated management,
+          modern infrastructure, and rigorous quality control, we ensure an
+          exceptional balance of quality and value.
         </p>
         <div className={style.video}>
           {/* <video src="/asset/video.mp4" controls autoPlay></video> */}

@@ -45,20 +45,20 @@ const Navbar = () => {
       </div>
       <hr />
       {isOpen && (
-        <nav className={style.ham_on}>
+        <nav className={style.ham_on} onClick={toggleNavbar}>
           <li className={style.ham_list}>
             <Link href="/">Home</Link>
           </li>
-          <li className={style.ham_list}>
+          <li className={style.ham_list} onClick={toggleNavbar}>
             <Link href="/aboutUs">About Us</Link>
           </li>
-          <li className={style.ham_list}>
+          <li className={style.ham_list} onClick={toggleNavbar}>
             <Link href="/products">Our Products</Link>
           </li>
-          <li className={style.ham_list}>
+          <li className={style.ham_list} onClick={toggleNavbar}>
             <Link href="/ourteam">Our Team</Link>
           </li>
-          <li className={style.ham_list}>
+          <li className={style.ham_list} onClick={toggleNavbar}>
             <Link href="/contactUs">Contact US</Link>
           </li>
         </nav>

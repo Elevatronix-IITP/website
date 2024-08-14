@@ -1,8 +1,7 @@
 .hero_wrapper {
-  height: 90vh;
+  height: 90svh;
   background-image: url(/asset/video.gif);
   width: 100vw;
-  filter: drop-shadow(10px 10px 10px rgb(208, 227, 203));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +18,9 @@
   margin-left: 20px;
 }
 .hero_text h1 {
-  /* max-width: 200px; */
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 700px;
 }
 
 .hero_text strong {
