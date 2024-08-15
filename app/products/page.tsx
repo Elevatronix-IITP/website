@@ -31,7 +31,7 @@ const Product = () => {
         <ProductCard
           src="/asset/Microscope.jpg"
           Product="Portable Microscope"
-          texts="Design and develop a portable digital microscope setup that allows one-handed operation and dynamic magnification adjustment, enhancing dentist mobility and comfort while integrating advanced digital imaging technology for real-time collaboration."
+          texts="A portable digital microscope allows one-handed operation and dynamic magnification adjustment, enhancing dentist mobility and comfort while integrating advanced digital imaging technology for real-time collaboration."
         />
         <ProductCard
           src="/asset/Eye_care.svg"

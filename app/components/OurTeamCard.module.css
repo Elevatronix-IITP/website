@@ -6,7 +6,7 @@
 }
 .our_team_card_wrapper {
   max-width: 550px;
-  height: 365.78px;
+  height: 340px;
   background-color: #b7b7b725;
 }
 .bg {
@@ -33,11 +33,7 @@
 .text {
   padding: 1rem;
 }
-/* @media screen and (max-width: 772px) {
-  .our_team_card {
-    width: 350px;
-  }
-} */
+
 .socialIcon {
   padding: 10px;
 }

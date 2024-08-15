@@ -27,7 +27,7 @@ function OurExpertise() {
         <Card
           imageSrc="/asset/doctor.svg"
           imageAlt="other"
-          title="Top Global Medical practitioner and retails Giants"
+          title="Strong Clientele that include medical practitioners and retails giants"
           description="Building responsive and modern web applications. Building responsive and modern web applications."
         />
       </div>

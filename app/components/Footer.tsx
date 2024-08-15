@@ -77,7 +77,10 @@ const Footer = () => {
               <h3>Follow Us</h3>
               <ul>
                 <li>
-                  <a href="">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61564394009360"
+                    target="blank"
+                  >
                     <div className={style.icons_bg}>
                       <Facebook />
                     </div>

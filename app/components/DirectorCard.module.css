@@ -1,5 +1,6 @@
 .Dcard {
   max-width: 500px;
+  height: 670px;
   padding: 1rem;
   box-shadow: 1px;
   background-color: hsl(0, 0%, 100%);
