@@ -33,7 +33,7 @@ const OurTeam = () => {
         description="With extensive expertise in 3D software and a sharp eye for detail, I craft precise and visually striking models that are crucial for product design and development. My skillful work enhances our projects by ensuring both accuracy and aesthetic appeal. "
         Linkedin_link="https://www.linkedin.com/in/ashutosh-dubey-a4435322b/"
         github_link="#"
-        mail="#"
+        mail="mailto:akdubey1796082@gmail.com"
       />
     </div>
   );

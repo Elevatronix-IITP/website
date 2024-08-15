@@ -27,11 +27,11 @@ export default function EmblaCarousel() {
             <Hero />
           </div>
           <div className="embla__slide">
-            <Hero2 />
+            <Hero3 />
           </div>
           {
             <div className="embla__slide">
-              <Hero3 />
+              <Hero2 />
             </div>
           }
         </div>

@@ -79,13 +79,6 @@ const Footer = () => {
                 <li>
                   <a href="">
                     <div className={style.icons_bg}>
-                      <Instagram />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <div className={style.icons_bg}>
                       <Facebook />
                     </div>
                   </a>

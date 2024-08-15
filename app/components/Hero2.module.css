@@ -1,7 +1,7 @@
 .hero_wrapper {
   height: 90svh;
   background-image: url("/asset/eye_equipment.png"),
-    linear-gradient(135deg, #737373, #000000);
+    linear-gradient(#807d7c, #807d7c, #494847, #afacaa);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

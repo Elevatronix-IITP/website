@@ -7,8 +7,8 @@ const Hero3 = () => {
       <div className={style.hero_text}>
         <div>
           <h1>
-            Precision and Efficiency Redefined Technology
-            <strong> Automated Tooth Extraction </strong>
+            Automated
+            <strong> Tooth Extraction </strong>Technology
           </h1>
         </div>
       </div>

@@ -11,11 +11,13 @@
 }
 
 .hero_text {
+  color: white;
   height: 60vh;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-left: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  padding: 1rem;
 }
 .hero_text h1 {
   text-align: center;
