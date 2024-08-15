@@ -1,5 +1,17 @@
-/* .embla__container {
-  color: black;
-  font-size: 100px;
-  margin-top: 500px;
-} */
+.buttons {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  z-index: 1;
+  margin-right: 1rem;
+  margin-top: -40px;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+  background-color: #5b6b5b;
+  border-radius: 50%;
+  border: none;
+}

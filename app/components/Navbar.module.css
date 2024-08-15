@@ -11,7 +11,7 @@
   align-items: center;
 }
 .logo_wrapper img {
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 .nav_menu {
@@ -54,6 +54,10 @@
 }
 
 @media screen and (max-width: 820px) {
+  .logo_wrapper img {
+    width: 140px;
+    height: auto;
+  }
   .nav_menu {
     display: none;
   }
