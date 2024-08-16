@@ -35,6 +35,26 @@ const OurTeam = () => {
         github_link="#"
         mail="mailto:akdubey1796082@gmail.com"
       />
+      <OurTeamCard
+        ImageSrc="/asset/Raushan.jpeg"
+        ImageAlt="Raushan"
+        name="Raushan Kumar"
+        position="Project Intern"
+        description="He spearheads redesign and testing of advanced surgical equipment with a keen focus on precision and innovation."
+        Linkedin_link="#"
+        github_link="#"
+        mail="mailto:raushan_2021bmec062@nitsri.ac.in"
+      />
+      <OurTeamCard
+        ImageSrc="/asset/Capture.jpg"
+        ImageAlt="Purushottam Singh"
+        name="Purushottam Singh"
+        position="Project Intern"
+        description="He has expertise in transforming concepts into precise, functional prototypes through  CAD design and 3D printing of innovative equipment prototype. "
+        Linkedin_link="#"
+        github_link="#"
+        mail="#"
+      />
     </div>
   );
 };

@@ -36,12 +36,12 @@ const Product = () => {
         <ProductCard
           src="/asset/Eye_care.svg"
           Product="Advanced Vitrectomy Cutter"
-          texts="A Advanced vitrectomy eye cutter is a specialized surgical tool used in vitrectomy procedures, which involve the removal of the vitreous gel from the eye. This instrument operates in multiple stages, allowing for precise cutting and removal of vitreous tissue. The multistage feature enables the surgeon to adjust the cutting speed and flow rate, optimizing the tool's performance for different phases of the surgery, such as removing more fibrous or delicate tissue. This technology enhances control and efficiency during complex retinal surgeries, improving patient outcomes."
+          texts="An advanced vitrectomy eye cutter is a specialized surgical tool used in vitrectomy procedures, which involve the removal of the vitreous gel from the eye. This instrument operates in multiple stages, allowing for precise cutting and removal of vitreous tissue. The multistage feature enables the surgeon to adjust the cutting speed and flow rate, optimizing the tool's performance for different phases of the surgery, such as removing more fibrous or delicate tissue. This technology enhances control and efficiency during complex retinal surgeries, improving patient outcomes."
         />
         <ProductCard
           src="/asset/Gloves.jpg"
           Product="Surgical Tactile Sensing Gloves"
-          texts="Surgical tactile sensing gloves are advanced medical devices designed to enhance, a surgeon's sense of touch during procedures. These gloves are embedded with sensors that detect and transmit tactile information, such as pressure, texture, and temperature, to the surgeon, This technology allows for more precise manipulation of tissues and instruments especially in minimally invasive surgeries where direct touch is limited. By providing real-time feedback, tactile sensing gloves improve surgical accuracy, reduce the risk of injury, and enhance the surgeon's ability to distinguish between different tissue types, ultimately leading to better patient outcomes."
+          texts="Surgical tactile sensing gloves are advanced medical devices designed to enhance a surgeon's sense of touch during procedures. These gloves are embedded with sensors that detect and transmit tactile information, such as pressure, texture, and temperature, to the surgeon, This technology allows for more precise manipulation of tissues and instruments especially in minimally invasive surgeries where direct touch is limited. By providing real-time feedback, tactile sensing gloves improve surgical accuracy, reduce the risk of injury, and enhance the surgeon's ability to distinguish between different tissue types, ultimately leading to better patient outcomes."
         />
       </div>
       <Footer />

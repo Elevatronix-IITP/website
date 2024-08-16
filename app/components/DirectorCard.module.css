@@ -1,11 +1,7 @@
 .Dcard {
   max-width: 500px;
-  height: 670px;
-  padding: 1rem;
   box-shadow: 1px;
-  background-color: hsl(0, 0%, 100%);
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 1.95px;
-  /* border: 1px solid rgb(230, 225, 225); */
+  background-color: #b7b7b725;
   border-radius: 5px;
   margin-right: 5rem;
 }
@@ -19,6 +15,9 @@
 .image {
   width: 100%;
   height: 100%;
+}
+.text {
+  padding: 1rem;
 }
 .text h3 {
   margin-top: 1rem;
@@ -62,9 +61,7 @@
 .icon {
   stroke-width: 1.5px;
 }
-.Dcard:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 3.9px 3.9px 5.2px 3.9px;
-}
+
 @media only screen and (max-width: 768px) {
   .Dcard {
     max-width: 450px;

@@ -8,8 +8,8 @@ const AboutUsPage = () => {
       <div className={style.wrapper}>
         <h1>About Us</h1>
         <p>
-          Elevatronix Pvt. Ltd. is a firm that was established in 2023 at the
-          IIT Patna incubation center, with the mission of revolutionizing
+          Elevatronix Pvt. Ltd. is a firm which has been established in 2023 at
+          Incubation Center, IIT Patna, with the mission of revolutionizing
           medical equipment by introducing automation within the surgical tools.
           Our unwavering commitment to research and continuous technological
           innovation enables us to offer a diverse range of top-quality surgical
@@ -29,7 +29,7 @@ const AboutUsPage = () => {
               height={150}
               alt="Incubation-Center-IIT-Patna"
             />
-            <h4>Incubation Center IIT Patna</h4>
+            <h4>Incubation Center, IIT Patna</h4>
           </div>
           <div className={style.new}>
             <Image

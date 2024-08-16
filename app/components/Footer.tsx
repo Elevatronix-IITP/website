@@ -24,9 +24,10 @@ const Footer = () => {
                 alt="Logo"
               />
               <p>
-                Elevatronix Private Limited is an start-up company, specializes
-                in designing, developing and fabricating cutting-edge automated
-                surgical equipment and advanced digital diagnosis solutions.
+                Elevatronix Private Limited is a start-up company which
+                specializes in designing, developing and fabricating
+                cutting-edge automated surgical equipment and advanced digital
+                diagnosis solutions.
               </p>
             </div>
           </div>

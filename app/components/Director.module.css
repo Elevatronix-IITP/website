@@ -28,20 +28,19 @@
   margin-top: 10px;
   width: 300px;
   border-width: 500px;
-
-  /* border: 1px solid #20e7bd; */
 }
-.mentorCard h6 {
+.mentorCard h5 {
   text-align: center;
   color: black;
   opacity: 0.8;
 }
-.mentorCard h4 {
+.mentorCard h3 {
   padding: 5px;
   text-align: center;
 }
 .mentorCard p {
-  max-width: 300px;
+  max-width: 400px;
   text-align: center;
-  padding: 5px;
+  line-height: 1.5;
+  /* padding: 5px; */
 }

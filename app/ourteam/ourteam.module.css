@@ -1,8 +1,9 @@
 .ourteam_wrapper {
-  padding-top: 200px;
+  padding-top: 10px;
 }
 .ourteam_wrapper h1 {
   text-align: center;
+  margin-top: 100px;
 }
 .our_team_text {
   align-items: center;
@@ -27,4 +28,43 @@
 .h1Intern {
   text-align: center;
   margin-top: 40px;
+}
+.collaborator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  margin: 40px;
+}
+
+.collab {
+  margin: 50px;
+  text-align: center;
+}
+
+.collab img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.collab h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.collab h6 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.collab p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+  max-width: 400px;
 }
