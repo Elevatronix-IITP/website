@@ -8,7 +8,17 @@ const contactUs = () => {
       <div className={style.contact}>
         <h1>Get in Touch With Us</h1>
         <div className={style.contact_wrapper}>
-          <form className={style.contact_form}>
+          <form
+            className={style.contact_form}
+            action="https://formsubmit.co/758717339716ed3e6fe706ce84636c35"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://elevatronix.in/thanks"
+            ></input>
+            <input type="hidden" name="_captcha" value="false"></input>
             <h2>Contact Us</h2>
             <label htmlFor="name">Name</label>
             <input

@@ -32,7 +32,7 @@ const Director = () => {
         <hr />
         <div className={style.mentorCard}>
           <Image
-            src="/asset/Dr Karali Patra.png"
+            src="/asset/Dr Karali Patra.jpeg"
             width={300}
             height={300}
             alt="Dr Karali Patra"

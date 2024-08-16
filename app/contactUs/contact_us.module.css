@@ -73,7 +73,7 @@
 }
 
 .contact_form button {
-  background-color: #2fb99bd1;
+  background-color: #28a745;
   font-weight: 500;
   padding: 10px 20px;
   border: none;
@@ -86,11 +86,11 @@
   justify-content: flex-end;
   background-color: #4ebb6b;
   font-weight: bolder;
-  color: #3d3c3c;
+  color: white;
   transition: 0.5s;
 }
 .contact_form button:hover {
-  background-color: #59f583;
+  background-color: #48ae60;
   cursor: pointer;
 }
 
