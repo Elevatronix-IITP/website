@@ -10,7 +10,7 @@ const contactUs = () => {
         <div className={style.contact_wrapper}>
           <form
             className={style.contact_form}
-            action="https://formsubmit.co/elevatronixpvtltd@gmail.com"
+            action="https://formsubmit.co/758717339716ed3e6fe706ce84636c35"
             method="POST"
           >
             <input
