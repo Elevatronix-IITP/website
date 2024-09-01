@@ -10,7 +10,6 @@ function Home() {
     <div>
       <Navbar />
       <EmblaCarousel />
-      {/* <Hero /> */}
       <MainContent />
       <Footer />
     </div>

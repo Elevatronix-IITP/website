@@ -25,3 +25,10 @@
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 10px;
 }
+@media only screen and (max-width: 440px) {
+  .card_container {
+    min-width: 300px;
+    max-width: 300px;
+    padding: 10px;
+  }
+}
