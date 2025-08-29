@@ -1,12 +1,12 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // ✅ for navigation events
+import { useRouter } from "next/navigation"; //  for navigation events
 import style from "./Navbar.module.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [loading, setLoading] = useState(false); // ✅ loading state
+  const [loading, setLoading] = useState(false); //  loading state
   const router = useRouter();
 
   const toggleNavbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   const handleNavigation = (path: string) => {
-    setLoading(true); // ✅ show loading
+    setLoading(true); //  show loading
     setIsOpen(false); // close menu
     router.push(path); // navigate
     setTimeout(() => setLoading(false), 800); // reset after delay (optional)
