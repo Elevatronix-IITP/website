@@ -83,3 +83,25 @@
     height: auto;
   }
 }
+.readMoreBtn {
+  background: #4ebb6b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.readMoreBtn:hover {
+  background: #4ebb6b;
+}
+
+/* Hide button on large screens */
+@media only screen and (min-width: 1024px) {
+  .readMoreBtn {
+    display: none;
+  }
+}
