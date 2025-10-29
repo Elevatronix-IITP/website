@@ -25,6 +25,11 @@
   list-style: none;
   padding-left: 2rem;
 }
+.nav_menu li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  transition: font-weight 0.5s ease;
+}
 .nav_list a {
   text-decoration: none;
   color: #000;
